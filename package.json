@@ -1,0 +1,28 @@
+{
+  "name": "@nana/babel-plugin-extra-import",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xBNa/babel-plugin-extra-import.git"
+  },
+  "author": "xbNa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xBNa/babel-plugin-extra-import/issues"
+  },
+  "homepage": "https://github.com/xBNa/babel-plugin-extra-import#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.2",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "fs": "0.0.1-security",
+    "fs-extra": "^7.0.1"
+  }
+}
